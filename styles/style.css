@@ -16,11 +16,16 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 
 }
 
 /* main style  */
 header{
+    
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, bottom right; 
+    background-repeat: no-repeat;
     background-color: #FFF8F3;
     border: 3px solid red;
     padding-top: 50px;
@@ -54,4 +59,41 @@ nav .manu a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+
+/* bannar style  */
+#bannar{
+    display: flex;
+    /* border: 2px solid green; */
+    margin: 46px 38px 0px 230px;
+    justify-content: center;
+    align-items: center;
+}
+.bannar-content{
+    max-width: 585px;
+}
+.bannar-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+.bannar-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.bannar-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+
+}
+.bannar-image img{
+    max-width: 584px;
+    vertical-align: middle;
 }
